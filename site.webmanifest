@@ -1,0 +1,14 @@
+{
+    "name": "Estol Analytics",
+    "short_name": "Estol Analytics",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#001110",
+    "background_color": "#001110",
+    "display": "standalone"
+}

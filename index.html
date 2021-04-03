@@ -1,7 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We make crowds feel uncrowded. Smart mobility and positioning solutions for your business">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Poppins:wght@600&family=Raleway:wght@600&family=Material+Icons&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Estol Analytics</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#496b91">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#001110">
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QCRPJG60BD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-QCRPJG60BD');
+    </script>
+
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+
+<header>
+  <div class="topnav" id="myTopnav">
+    <a id="brand_container" href="/">
+        <img id="logo" src="img/logo.png" alt="Estol Analytics" width="30px" height="50px">
+        <h1 id="brand"><span class="blue">Estol</span><br><span class="grey">Analytics</span></h1>
+    </a>
+    <div>
+        <a class="nav_link" href="/">Home</a>
+        <a class="nav_link" href="/solutions">Solutions</a>
+        <a class="nav_link" href="/about">About us</a>
+        <a class="nav_link" href="/contact">Get started</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <span class="material-icons">menu</span>
+    </a>
+  </div>
+</header>
+
+
+<main>
+    <div class="placeholder" id="placeholder_text_1">
+        <video playsinline autoplay muted loop id="bgvideo">
+          <source src="img/pexels_vid.mp4" type="video/mp4" />
+        </video>
+        <div class="placeholder_text main">
+          <h2 class="big_title dark_blue">We make crowds feel uncrowded.</h2>
+          <h3 class="dark_blue">Smart mobility and positioning solutions for your business</h3>
+          <a href="/solutions" class="dark_blue">Explore our solutions</a>
+        </div>
+    </div>
+    <div class="section_group">
+        <div class="placeholder_text normal">
+          <h2 class="big_title">Become an intelligent space</h2>
+          <a class="white" href="/contact">Get started</a>
+        </div>
+        <div class="placeholder_text normal">
+          <h2 class="big_title right_title">Evolving the way you move</h2>
+          <a class="white" href="/about">About us</a>
+        </div>
+    </div>
+    
+</main>
+<footer>
+  <p>Copyright © 2021 Estol Analytics. All rights reserved.</p>
+  <div class="social">
+      <a href="https://www.linkedin.com/company/estol-analytics" target="_blank" rel="noopener">
+        <img src="./img/linkedin.png" width="35px" alt="LinkedIn" height="35px">
+      </a>
+      <a href="https://www.twitter.com/EstolAnalytics" target="_blank" rel="noopener">
+        <img src="./img/twitter.png" width="35px" alt="Twitter" height="35px">
+      </a>
+  </div>
+</footer>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
 </body>
 </html>
