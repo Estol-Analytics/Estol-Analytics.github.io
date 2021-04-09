@@ -469,20 +469,35 @@ h3{
 }
 
 
-#marc{
-  background-image: url("../img/marc.png");
+#marc_g{
+  background-image: url("../img/marc_g.jpg");
 }
 #fer{
-  background-image: url("../img/fer.png");
+  background-image: url("../img/fer.jpg");
 }
 #aleix{
-  background-image: url("../img/aleix.png");
+  background-image: url("../img/aleix.jpg");
 }
 #lena{
-  background-image: url("../img/lena.png");
+  background-image: url("../img/lena.jpg");
 }
 #raul{
-  background-image: url("../img/raul.png");
+  background-image: url("../img/raul.jpg");
+}
+#marc_r{
+  background-image: url("../img/marc_r.jpg");
+}
+#anna{
+  background-image: url("../img/anna.jpg");
+}
+#armand{
+  background-image: url("../img/armand.jpg");
+}
+#jose{
+  background-image: url("../img/jose.jpg");
+}
+#clara{
+  background-image: url("../img/clara.jpg");
 }
 
 
